@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+header{
+    background-color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.329);
+    width: 100%;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(102, 126, 234);
+    cursor: pointer;
+}
+.nav-links{
+    display: flex;
+    gap: 25px;
+    padding-top: 8px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.nav-links a:hover {
+    color: rgb(102, 126, 234);
+    text-shadow: 5px 0px 40px rgb(102, 126, 234), -5px 0px 40px rgb(102, 126, 234);
+}
+
+ /* marquee */
+.marquee-container {
+    background: rgba(255, 255, 255, 0.226);
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/* Category Selection Styles */
+.category-container {
+    background-color: white;
+    max-width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.356), -0 10px 30px rgba(0, 0, 0, 0.356);
+}
+
+.category-container h2 {
+    color: rgb(45, 55, 72);
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category-btn {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 20px;
+    background: rgb(247, 250, 252);
+    border: 2px solid rgb(226, 232, 240);
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(45, 55, 72);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 150px;
+}
+
+.category-btn:hover {
+    transform: translateY(-5px);
+    border-color: rgb(102, 126, 234);
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.2);
+    background: rgb(102, 126, 234);
+    color: white;
+}
+
+.category-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    display: block;
+}
+ /* footer */
+footer{
+    margin-top: 2%;
+    text-align: center;
+    padding: 40px 0;
+    background: rgb(45, 55, 72);
+    color: white;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2.5% ;
+}
+.footer-links a:hover{
+    color:rgb(203, 213, 224);;
+}
+.copyright {
+    margin-top: 20px;
+    color: rgb(160, 174, 192);
+    font-size: 14px;
+}
