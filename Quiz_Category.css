@@ -123,3 +123,94 @@ footer{
     color: rgb(160, 174, 192);
     font-size: 14px;
 }
+/* Media Queries for Responsive Design */
+
+/* Tablet Devices (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .category-container {
+        max-width: 80%;
+    }
+    
+    .category-container h2 {
+        font-size: 28px;
+    }
+    
+    .category-btn {
+        min-width: 130px;
+        padding: 20px 15px;
+    }
+    
+    .nav-bar {
+        padding: 0 40px;
+    }
+}
+
+/* Mobile Devices (max-width: 767px) */
+@media screen and (max-width: 767px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    .logo {
+        margin-bottom: 15px;
+    }
+    
+    .category-container {
+        max-width: 90%;
+        padding: 20px;
+    }
+    
+    .category-container h2 {
+        font-size: 24px;
+    }
+    
+    .category-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .category-btn {
+        width: 90%;
+        min-width: auto;
+    }
+    
+    footer {
+        padding: 30px 15px;
+    }
+    
+    .footer-links a {
+        margin-left: 0;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Small Mobile Devices */
+@media screen and (max-width: 480px) {
+    .nav-bar {
+        padding: 0 15px;
+    }
+    
+    .logo {
+        font-size: 20px;
+    }
+    
+    .nav-links a {
+        font-size: 14px;
+    }
+    
+    .category-container h2 {
+        font-size: 20px;
+    }
+    
+    .category-btn {
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+    .category-icon {
+        font-size: 30px;
+    }
+}
